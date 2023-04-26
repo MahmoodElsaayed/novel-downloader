@@ -139,8 +139,8 @@ def generate_pdf():
     pdf = FPDF("P", "mm", "A4")
     pdf.set_auto_page_break(auto=True, margin=20)
     pdf.set_margins(top=20, right=20, left=20)
-    pdf.add_font('Arial', '', r"fonts/arial.ttf")
-    pdf.add_font('Arial', 'BI', r"fonts/arialbi.ttf")
+    pdf.add_font('Arial', '', r"arial.ttf")
+    pdf.add_font('Arial', 'BI', r"arialbi.ttf")
     return pdf
 
 
